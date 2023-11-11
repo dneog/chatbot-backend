@@ -2,7 +2,7 @@ import { HfInference } from '@huggingface/inference';
 import { HuggingFaceStream, StreamingTextResponse } from 'ai';
 import { experimental_buildOpenAssistantPrompt } from 'ai/prompts';
  
-const Hf = new HfInference(process.env.HUGGINGFACE_API_KEY);
+const Hf = new HfInference('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');
  
 export const runtime = 'edge';
 
